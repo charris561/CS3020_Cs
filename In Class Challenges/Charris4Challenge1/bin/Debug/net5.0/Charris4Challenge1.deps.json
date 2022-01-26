@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Charris4Challenge1/1.0.0": {
+        "runtime": {
+          "Charris4Challenge1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Charris4Challenge1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
