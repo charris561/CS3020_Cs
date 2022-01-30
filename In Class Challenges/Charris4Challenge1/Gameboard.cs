@@ -8,22 +8,56 @@ namespace Charris4Challenge1
     public class Gameboard
     {
 
-        char[,] grid = new char[10, 10];
+        private char[,] grid = new char[10, 10];
         
         
         public void FillGrid(){
 
-        for (int row = 0; row < grid.GetLength(0); row++){
+            //get user input to store in gameboard
+            Console.Write("Please enter a character: ");
+            char userEntry = Convert.ToChar(Console.ReadLine());
 
-            for (int col = 0; col < grid.GetLength(1); col++){
+            //fill grid with user entry
+            for (int row = 0; row < grid.GetLength(0); row++){
 
-                    grid[row, col] = 'X';
+                for (int col = 0; col < grid.GetLength(1); col++){
+                    
+                    grid[row, col] = userEntry;
 
                 }//For Columns
 
             }//For Rows
 
         }//FillGrid
+
+        public void FillGridCheckerPttrn() {
+
+            string userEntry;
+
+            //get user input for characters
+            do
+            {
+                Console.Write("Please enter two characters: ");
+                userEntry = Console.ReadLine();
+
+                
+            } while (userEntry.Length != 2);
+
+            //fill grid
+            int character = 1;
+            for (int row = 0; row < grid.GetLength(0); row++)
+            {
+
+                for (int col = 0; col < grid.GetLength(1); col++)
+                {
+
+                    
+
+                }//For Columns
+
+            }//For Rows
+
+        }//FillGridCheckerPttrn
 
         public void Display() 
         {
@@ -54,6 +88,7 @@ namespace Charris4Challenge1
             {
                 Console.Write($"-");
             }
+
             Console.WriteLine();
 
         }//DrawLine
