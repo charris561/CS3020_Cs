@@ -16,6 +16,8 @@ namespace Charris4Challenge1
             board.Display();
             PlayerTurn();
             board.Display();
+            PlayerTurn();
+            board.Display();
         }
 
         public void PlayerTurn()
@@ -26,7 +28,7 @@ namespace Charris4Challenge1
 
             //check if valid
             //place shot
-            board.SetChar(target[0] - 65, target[1] - 49, 'O');
+            board.SetChar(target[0] - 65, int.Parse(target.Substring(1)) - 1, 'O');
         }
 
     }
