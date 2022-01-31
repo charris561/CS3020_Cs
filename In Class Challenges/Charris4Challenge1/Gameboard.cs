@@ -9,67 +9,106 @@ namespace Charris4Challenge1
     {
 
         private char[,] grid = new char[10, 10];
-        
-        
-        public void FillGrid(){
 
-            //get user input to store in gameboard
-            Console.Write("Please enter a character: ");
-            char userEntry = Convert.ToChar(Console.ReadLine());
+        //public char[,] Grid { get => grid; set => grid = value; }
 
-            //fill grid with user entry
-            for (int row = 0; row < grid.GetLength(0); row++){
-
-                for (int col = 0; col < grid.GetLength(1); col++){
-                    
-                    grid[row, col] = userEntry;
-
-                }//For Columns
-
-            }//For Rows
-
-        }//FillGrid
-
-        public void FillGridCheckerPttrn() {
-
-            string userEntry;
-
-            //get user input for characters
-            do
+        public char[,] Grid
+        {
+            get 
             {
-                Console.Write("Please enter two characters: ");
-                userEntry = Console.ReadLine();
-
-                
-            } while (userEntry.Length != 2);
-
-            //fill grid
-            int character = 1;
-            for (int row = 0; row < grid.GetLength(0); row++)
+                return grid;
+            }
+            set 
             {
+                grid = value;
+            }
+        }
 
-                for (int col = 0; col < grid.GetLength(1); col++)
-                {
+        public void SetChar(int row, int col, char aChar)
+        {
+            if (row < grid.GetLength(0) && col < grid.GetLength(1))
+            {
+                grid[row, col] = aChar;
+            }
+            else
+            {
+                Console.WriteLine($"Invalid Location: [{row},{col}]");
+            }
+        }
 
-                    
-
-                }//For Columns
-
-            }//For Rows
-
-        }//FillGridCheckerPttrn
-
-        public void Display() 
+        public void FillGrid()
         {
 
-            for (int row = 0; row < grid.GetLength(0); row++)
+            for (int row = 0; row < Grid.GetLength(0); row++)
             {
-                DrawLine();
 
-                for (int col = 0; col < grid.GetLength(1); col++)
+                for (int col = 0; col < Grid.GetLength(1); col++)
                 {
 
-                    Console.Write($"| {grid[row, col]} ");
+                    Grid[row, col] = 'X';
+
+                }
+
+            }
+
+        }
+
+        public void FillGrid(char aChar)
+        {
+            //fill grid with user entry
+            for (int row = 0; row < Grid.GetLength(0); row++)
+            {
+
+                for (int col = 0; col < Grid.GetLength(1); col++)
+                {
+
+                    Grid[row, col] = aChar;
+
+                }//For Columns
+
+            }//For Rows
+        }
+
+        public void CheckerFill()
+        {
+            char a = 'X';
+            char b = 'O';
+
+            for (int row = 0; row < Grid.GetLength(0); row++)
+            {
+
+                for (int col = 0; col < Grid.GetLength(1); col++)
+                {
+
+                    Grid[row, col] = ((row + col) % 2 == 0) ? a : b;
+
+                }
+
+            }
+        }
+
+        public void UserFillGrid()
+        {
+            Console.WriteLine("Please Enter a character: ");
+            //char answer = Console.ReadKey().KeyChar;
+            char answer = Console.ReadLine()[0];
+
+            FillGrid(answer);
+        }
+
+        public void Display()
+        {
+            char rowChar = 'A';
+            for (int row = 0; row < Grid.GetLength(0); row++)
+            {
+                DrawLine();
+                Console.Write(rowChar + " ");
+                rowChar++;
+
+                for (int col = 0; col < Grid.GetLength(1); col++)
+                {
+
+                    Console.Write($"| {Grid[row, col]} ");
 
                 }//for col
 
@@ -78,21 +117,33 @@ namespace Charris4Challenge1
             }//for row
 
             DrawLine();
+            DrawColumnNumbers();
 
-        }//Display
+        }
 
         private void DrawLine()
         {
-
-            for (int i = 0; i < grid.GetLength(1) * 4 + 1; i++)
+            Console.Write("  ");
+            for (int i = 0; i < Grid.GetLength(1) * 4 + 1; i++)
             {
                 Console.Write($"-");
             }
 
             Console.WriteLine();
 
-        }//DrawLine
+        }
 
-    }//Gameboard
+        private void DrawColumnNumbers()
+        {
+            Console.Write("  ");
+            for (int i = 0; i < Grid.GetLength(1); i++)
+            {
+                Console.Write($"  {i + 1} ");
+            }
 
-}//Charris4Challenge1
+            Console.WriteLine();
+        }
+
+    }
+
+}

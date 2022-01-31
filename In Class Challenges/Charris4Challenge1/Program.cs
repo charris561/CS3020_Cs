@@ -6,9 +6,8 @@ namespace Charris4Challenge1
     {
         static void Main(string[] args)
         {
-            Gameboard board = new Gameboard();
-            board.FillGridCheckerPttrn();
-            board.Display();
+            Game game = new Game();
+            game.Run();
 
         }//Main
 
