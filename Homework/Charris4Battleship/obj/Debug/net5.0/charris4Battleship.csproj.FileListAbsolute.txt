@@ -1,0 +1,16 @@
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\charris4Battleship.exe
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\charris4Battleship.deps.json
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\charris4Battleship.runtimeconfig.json
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\charris4Battleship.runtimeconfig.dev.json
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\charris4Battleship.dll
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\ref\charris4Battleship.dll
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\bin\Debug\net5.0\charris4Battleship.pdb
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.csproj.AssemblyReference.cache
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.AssemblyInfoInputs.cache
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.AssemblyInfo.cs
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.csproj.CoreCompileInputs.cache
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.dll
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\ref\charris4Battleship.dll
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.pdb
+C:\Dev\CS3020-001_C#\CS3020_Cs\Homework\charris4Battleship\obj\Debug\net5.0\charris4Battleship.genruntimeconfig.cache
