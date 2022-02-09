@@ -1,0 +1,15 @@
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.csproj.AssemblyReference.cache
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.AssemblyInfoInputs.cache
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.AssemblyInfo.cs
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.csproj.CoreCompileInputs.cache
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\bin\Debug\net6.0\SimStudent2.exe
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\bin\Debug\net6.0\SimStudent2.deps.json
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\bin\Debug\net6.0\SimStudent2.runtimeconfig.json
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\bin\Debug\net6.0\SimStudent2.dll
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\bin\Debug\net6.0\ref\SimStudent2.dll
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\bin\Debug\net6.0\SimStudent2.pdb
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.dll
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\ref\SimStudent2.dll
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.pdb
+C:\Dev\CS3020_Cs\In Class Challenges\SimStudent2\obj\Debug\net6.0\SimStudent2.genruntimeconfig.cache
