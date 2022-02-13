@@ -25,5 +25,7 @@ namespace charris4Battleship
         public const int BattleshipLength = 4;
         public const int CarrierLength = 5;
 
+        public const int CheatNum = 0;
+        public const int SkillNum = 1;
     }
 }
