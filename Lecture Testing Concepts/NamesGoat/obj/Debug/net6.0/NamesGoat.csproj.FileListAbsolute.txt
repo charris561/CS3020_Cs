@@ -1,0 +1,15 @@
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\bin\Debug\net6.0\NamesGoat.exe
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\bin\Debug\net6.0\NamesGoat.deps.json
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\bin\Debug\net6.0\NamesGoat.runtimeconfig.json
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\bin\Debug\net6.0\NamesGoat.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\bin\Debug\net6.0\ref\NamesGoat.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\bin\Debug\net6.0\NamesGoat.pdb
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.csproj.AssemblyReference.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.AssemblyInfoInputs.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.AssemblyInfo.cs
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.csproj.CoreCompileInputs.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\ref\NamesGoat.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.pdb
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\NamesGoat\obj\Debug\net6.0\NamesGoat.genruntimeconfig.cache

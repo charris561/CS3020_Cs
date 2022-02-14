@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dmPq+u0TNw6UlyvvtNVwZKZ/+oeCCZ+Qazhe1w8IwzdGVudqvbzA4i1i/RWaUI0CSim/c0dSMgcZzELFPY/+Lg==",
+  "dgSpecHash": "kAa7SGPdCtmHfCddhrJ/GvzZtjNGVbbNk+EDkYd16VWNW44MUe4Ji05TZRX6JPZt5haJpeeVql/bur/ddfQpug==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\CS3020-001_C#\\CS3020_Cs\\Homework\\charris4Battleship\\charris4Battleship.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Harri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Dev\\CS3020_Cs\\Homework\\Charris4Battleship\\charris4Battleship.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

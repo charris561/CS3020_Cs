@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\CS3020-001_C#\\CS3020_Cs\\Homework\\charris4Battleship\\charris4Battleship.csproj",
+      "projectUniqueName": "C:\\Dev\\CS3020_Cs\\Homework\\Charris4Battleship\\charris4Battleship.csproj",
       "projectName": "charris4Battleship",
-      "projectPath": "C:\\Dev\\CS3020-001_C#\\CS3020_Cs\\Homework\\charris4Battleship\\charris4Battleship.csproj",
+      "projectPath": "C:\\Dev\\CS3020_Cs\\Homework\\Charris4Battleship\\charris4Battleship.csproj",
       "packagesPath": "C:\\Users\\Harri\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\CS3020-001_C#\\CS3020_Cs\\Homework\\charris4Battleship\\obj\\",
+      "outputPath": "C:\\Dev\\CS3020_Cs\\Homework\\Charris4Battleship\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,18 +60,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.14, 5.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
