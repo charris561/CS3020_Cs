@@ -9,18 +9,18 @@ namespace NamesGoat
     internal class NameData
     {
         string name;
-        int makeCount;
+        int maleCount;
         int femaleCount;
 
-        public NameData(string name, int makeCount, int femaleCount)
+        public NameData(string name, int maleCount, int femaleCount)
         {
             this.Name = name;
-            this.MakeCount = makeCount;
+            this.MaleCount = maleCount;
             this.FemaleCount = femaleCount;
         }
 
         public string Name { get => name; set => name = value; }
-        public int MakeCount { get => makeCount; set => makeCount = value; }
+        public int MaleCount { get => maleCount; set => maleCount = value; }
         public int FemaleCount { get => femaleCount; set => femaleCount = value; }
     }
 }
