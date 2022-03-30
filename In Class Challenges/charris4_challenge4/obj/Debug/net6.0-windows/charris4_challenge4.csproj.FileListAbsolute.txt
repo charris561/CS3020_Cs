@@ -1,0 +1,17 @@
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\bin\Debug\net6.0-windows\charris4_challenge4.exe
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\bin\Debug\net6.0-windows\charris4_challenge4.deps.json
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\bin\Debug\net6.0-windows\charris4_challenge4.runtimeconfig.json
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\bin\Debug\net6.0-windows\charris4_challenge4.dll
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\bin\Debug\net6.0-windows\ref\charris4_challenge4.dll
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\bin\Debug\net6.0-windows\charris4_challenge4.pdb
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.csproj.AssemblyReference.cache
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.Form1.resources
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.csproj.GenerateResource.cache
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.AssemblyInfoInputs.cache
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.AssemblyInfo.cs
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.csproj.CoreCompileInputs.cache
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.dll
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\ref\charris4_challenge4.dll
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.pdb
+C:\Dev\CS3020_Cs\In Class Challenges\charris4_challenge4\obj\Debug\net6.0-windows\charris4_challenge4.genruntimeconfig.cache

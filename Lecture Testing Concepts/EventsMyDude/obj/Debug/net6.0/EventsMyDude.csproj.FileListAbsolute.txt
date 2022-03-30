@@ -1,0 +1,15 @@
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\bin\Debug\net6.0\EventsMyDude.exe
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\bin\Debug\net6.0\EventsMyDude.deps.json
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\bin\Debug\net6.0\EventsMyDude.runtimeconfig.json
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\bin\Debug\net6.0\EventsMyDude.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\bin\Debug\net6.0\ref\EventsMyDude.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\bin\Debug\net6.0\EventsMyDude.pdb
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.csproj.AssemblyReference.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.AssemblyInfoInputs.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.AssemblyInfo.cs
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.csproj.CoreCompileInputs.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\ref\EventsMyDude.dll
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.pdb
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\EventsMyDude\obj\Debug\net6.0\EventsMyDude.genruntimeconfig.cache

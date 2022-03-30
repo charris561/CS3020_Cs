@@ -72,9 +72,12 @@ namespace NamesGoat
         }
 
         public void QueryTest()
-        { 
+        {
+            Console.WriteLine("Please enter a name to earch for.");
+            string aName = Console.ReadLine();
+
             var johns = from name in names
-                       where name.Key.Equals("Zelda")
+                       where name.Key.Equals(aName)
                        select name;
 
             foreach (var john in johns)

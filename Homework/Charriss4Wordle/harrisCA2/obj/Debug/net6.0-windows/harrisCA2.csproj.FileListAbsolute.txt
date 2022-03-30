@@ -1,0 +1,17 @@
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\bin\Debug\net6.0-windows\harrisCA2.exe
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\bin\Debug\net6.0-windows\harrisCA2.deps.json
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\bin\Debug\net6.0-windows\harrisCA2.runtimeconfig.json
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\bin\Debug\net6.0-windows\harrisCA2.dll
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\bin\Debug\net6.0-windows\ref\harrisCA2.dll
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\bin\Debug\net6.0-windows\harrisCA2.pdb
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.csproj.AssemblyReference.cache
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.Form1.resources
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.csproj.GenerateResource.cache
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.AssemblyInfoInputs.cache
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.AssemblyInfo.cs
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.csproj.CoreCompileInputs.cache
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.dll
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\ref\harrisCA2.dll
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.pdb
+C:\Dev\CS3020_Cs\Homework\Charriss4Wordle\harrisCA2\obj\Debug\net6.0-windows\harrisCA2.genruntimeconfig.cache
