@@ -4,7 +4,7 @@
     <Compile Update="Cell.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="MinesweeperGUI.cs">
+    <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -8,27 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MineSweeper_
+namespace charris4Minesweeper
 {
     public partial class Cell : UserControl
     {
-        Random rand = new Random();
-        Button cellButton = new Button();
-        char cellcontent = ' ';
+        Button button = new Button();
         int sizeOfCell = 32;
-        
         public Cell()
         {
             InitializeComponent();
-            this.Size = new Size(sizeOfCell,sizeOfCell);
+            this.Size = new Size(SizeOfCell, SizeOfCell);
             Button.FlatStyle = FlatStyle.Flat;
-            Button.Size = new Size(sizeOfCell, sizeOfCell);
-            Button.Location = new Point(0,0);
+            Button.Size = new Size(SizeOfCell, sizeOfCell);
+            Button.Location = new Point(0, 0);
             Button.BackColor = Color.LightGray;
             this.Controls.Add(Button);
         }
 
-        public int SizeOfCell { get => sizeOfCell;}
-        public Button Button { get => cellButton; }
+        public int SizeOfCell { get => sizeOfCell; }
+        public Button Button { get => button; }
     }
 }

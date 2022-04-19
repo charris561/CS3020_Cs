@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "df322eda-6504-4759-91b3-563be34a725a": {
+      "ProjectGuid": "df322eda-6504-4759-91b3-563be34a725a",
+      "DisplayName": "charris4Minesweeper",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

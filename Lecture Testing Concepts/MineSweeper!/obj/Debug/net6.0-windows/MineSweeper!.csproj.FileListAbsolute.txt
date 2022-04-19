@@ -1,0 +1,8 @@
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper!.csproj.AssemblyReference.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper_.Cell.resources
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper_.MinesweeperGUI.resources
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper!.csproj.GenerateResource.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper!.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper!.AssemblyInfoInputs.cache
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper!.AssemblyInfo.cs
+C:\Dev\CS3020_Cs\Lecture Testing Concepts\MineSweeper!\obj\Debug\net6.0-windows\MineSweeper!.csproj.CoreCompileInputs.cache

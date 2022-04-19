@@ -38,12 +38,14 @@
 
         #endregion
 
+
         public void CellClickHandler(object sender, EventArgs e)
         {
 
             Cell currentCell = (Cell)sender;
             Color targetColor = currentCell.BackColor;
 
+            //make below helper methods per lecture video
             //check above
             if (currentCell.Row > 0)
             {
@@ -69,6 +71,9 @@
                     cells[currentCell.Row - 1, currentCell.Col - 1].PerformClick();
                 }
             }
+            //end
+
+            
         }
     }
 }
