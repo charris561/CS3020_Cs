@@ -34,16 +34,16 @@
             this.specialBtn = new System.Windows.Forms.Button();
             this.defendBtn = new System.Windows.Forms.Button();
             this.attackBtn = new System.Windows.Forms.Button();
-            this.WarriorLbl = new System.Windows.Forms.Label();
-            this.MageLbl = new System.Windows.Forms.Label();
-            this.ClericLbl = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.clericSPLbl = new System.Windows.Forms.Label();
-            this.mageSPLbl = new System.Windows.Forms.Label();
-            this.warriorSPLbl = new System.Windows.Forms.Label();
-            this.clericHPLbl = new System.Windows.Forms.Label();
-            this.mageHPLbl = new System.Windows.Forms.Label();
-            this.warriorHPLbl = new System.Windows.Forms.Label();
+            this.heroNameLbl1 = new System.Windows.Forms.Label();
+            this.heroNameLbl2 = new System.Windows.Forms.Label();
+            this.heroNameLbl3 = new System.Windows.Forms.Label();
+            this.statsGB = new System.Windows.Forms.GroupBox();
+            this.heroSPLbl3 = new System.Windows.Forms.Label();
+            this.heroSPLbl2 = new System.Windows.Forms.Label();
+            this.heroSPLbl1 = new System.Windows.Forms.Label();
+            this.heroHPLbl3 = new System.Windows.Forms.Label();
+            this.heroHPLbl2 = new System.Windows.Forms.Label();
+            this.heroHPLbl1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.highScoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,19 +51,19 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.instructionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.playerPB1 = new System.Windows.Forms.PictureBox();
-            this.playerPB2 = new System.Windows.Forms.PictureBox();
-            this.playerPB3 = new System.Windows.Forms.PictureBox();
+            this.heroPB1 = new System.Windows.Forms.PictureBox();
+            this.heroPB2 = new System.Windows.Forms.PictureBox();
+            this.heroPB3 = new System.Windows.Forms.PictureBox();
             this.gameBackgroundPnl = new System.Windows.Forms.Panel();
             this.enemyPB3 = new System.Windows.Forms.PictureBox();
             this.enemyPB2 = new System.Windows.Forms.PictureBox();
             this.enemyPB1 = new System.Windows.Forms.PictureBox();
             this.actionsGB.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.statsGB.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.playerPB1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.playerPB2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.playerPB3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heroPB1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heroPB2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heroPB3)).BeginInit();
             this.gameBackgroundPnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.enemyPB3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyPB2)).BeginInit();
@@ -129,104 +129,104 @@
             this.attackBtn.Text = "Attack";
             this.attackBtn.UseVisualStyleBackColor = true;
             // 
-            // WarriorLbl
+            // heroNameLbl1
             // 
-            this.WarriorLbl.AutoSize = true;
-            this.WarriorLbl.Location = new System.Drawing.Point(25, 66);
-            this.WarriorLbl.Name = "WarriorLbl";
-            this.WarriorLbl.Size = new System.Drawing.Size(70, 25);
-            this.WarriorLbl.TabIndex = 4;
-            this.WarriorLbl.Text = "Warrior";
+            this.heroNameLbl1.AutoSize = true;
+            this.heroNameLbl1.Location = new System.Drawing.Point(22, 39);
+            this.heroNameLbl1.Name = "heroNameLbl1";
+            this.heroNameLbl1.Size = new System.Drawing.Size(70, 25);
+            this.heroNameLbl1.TabIndex = 4;
+            this.heroNameLbl1.Text = "Warrior";
             // 
-            // MageLbl
+            // heroNameLbl2
             // 
-            this.MageLbl.AutoSize = true;
-            this.MageLbl.Location = new System.Drawing.Point(25, 150);
-            this.MageLbl.Name = "MageLbl";
-            this.MageLbl.Size = new System.Drawing.Size(57, 25);
-            this.MageLbl.TabIndex = 5;
-            this.MageLbl.Text = "Mage";
+            this.heroNameLbl2.AutoSize = true;
+            this.heroNameLbl2.Location = new System.Drawing.Point(22, 111);
+            this.heroNameLbl2.Name = "heroNameLbl2";
+            this.heroNameLbl2.Size = new System.Drawing.Size(57, 25);
+            this.heroNameLbl2.TabIndex = 5;
+            this.heroNameLbl2.Text = "Mage";
             // 
-            // ClericLbl
+            // heroNameLbl3
             // 
-            this.ClericLbl.AutoSize = true;
-            this.ClericLbl.Location = new System.Drawing.Point(25, 237);
-            this.ClericLbl.Name = "ClericLbl";
-            this.ClericLbl.Size = new System.Drawing.Size(54, 25);
-            this.ClericLbl.TabIndex = 6;
-            this.ClericLbl.Text = "Cleric";
+            this.heroNameLbl3.AutoSize = true;
+            this.heroNameLbl3.Location = new System.Drawing.Point(25, 183);
+            this.heroNameLbl3.Name = "heroNameLbl3";
+            this.heroNameLbl3.Size = new System.Drawing.Size(54, 25);
+            this.heroNameLbl3.TabIndex = 6;
+            this.heroNameLbl3.Text = "Cleric";
             // 
-            // groupBox1
+            // statsGB
             // 
-            this.groupBox1.Controls.Add(this.clericSPLbl);
-            this.groupBox1.Controls.Add(this.mageSPLbl);
-            this.groupBox1.Controls.Add(this.warriorSPLbl);
-            this.groupBox1.Controls.Add(this.clericHPLbl);
-            this.groupBox1.Controls.Add(this.mageHPLbl);
-            this.groupBox1.Controls.Add(this.warriorHPLbl);
-            this.groupBox1.Controls.Add(this.WarriorLbl);
-            this.groupBox1.Controls.Add(this.ClericLbl);
-            this.groupBox1.Controls.Add(this.MageLbl);
-            this.groupBox1.Location = new System.Drawing.Point(449, 679);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(482, 295);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.statsGB.Controls.Add(this.heroSPLbl3);
+            this.statsGB.Controls.Add(this.heroSPLbl2);
+            this.statsGB.Controls.Add(this.heroSPLbl1);
+            this.statsGB.Controls.Add(this.heroHPLbl3);
+            this.statsGB.Controls.Add(this.heroHPLbl2);
+            this.statsGB.Controls.Add(this.heroHPLbl1);
+            this.statsGB.Controls.Add(this.heroNameLbl1);
+            this.statsGB.Controls.Add(this.heroNameLbl3);
+            this.statsGB.Controls.Add(this.heroNameLbl2);
+            this.statsGB.Location = new System.Drawing.Point(449, 679);
+            this.statsGB.Name = "statsGB";
+            this.statsGB.Size = new System.Drawing.Size(482, 295);
+            this.statsGB.TabIndex = 7;
+            this.statsGB.TabStop = false;
+            this.statsGB.Text = "Stats:";
             // 
-            // clericSPLbl
+            // heroSPLbl3
             // 
-            this.clericSPLbl.AutoSize = true;
-            this.clericSPLbl.Location = new System.Drawing.Point(134, 262);
-            this.clericSPLbl.Name = "clericSPLbl";
-            this.clericSPLbl.Size = new System.Drawing.Size(118, 25);
-            this.clericSPLbl.TabIndex = 12;
-            this.clericSPLbl.Text = "SP: (100/100)";
+            this.heroSPLbl3.AutoSize = true;
+            this.heroSPLbl3.Location = new System.Drawing.Point(134, 208);
+            this.heroSPLbl3.Name = "heroSPLbl3";
+            this.heroSPLbl3.Size = new System.Drawing.Size(118, 25);
+            this.heroSPLbl3.TabIndex = 12;
+            this.heroSPLbl3.Text = "SP: (100/100)";
             // 
-            // mageSPLbl
+            // heroSPLbl2
             // 
-            this.mageSPLbl.AutoSize = true;
-            this.mageSPLbl.Location = new System.Drawing.Point(134, 175);
-            this.mageSPLbl.Name = "mageSPLbl";
-            this.mageSPLbl.Size = new System.Drawing.Size(118, 25);
-            this.mageSPLbl.TabIndex = 11;
-            this.mageSPLbl.Text = "SP: (100/100)";
+            this.heroSPLbl2.AutoSize = true;
+            this.heroSPLbl2.Location = new System.Drawing.Point(131, 136);
+            this.heroSPLbl2.Name = "heroSPLbl2";
+            this.heroSPLbl2.Size = new System.Drawing.Size(118, 25);
+            this.heroSPLbl2.TabIndex = 11;
+            this.heroSPLbl2.Text = "SP: (100/100)";
             // 
-            // warriorSPLbl
+            // heroSPLbl1
             // 
-            this.warriorSPLbl.AutoSize = true;
-            this.warriorSPLbl.Location = new System.Drawing.Point(134, 91);
-            this.warriorSPLbl.Name = "warriorSPLbl";
-            this.warriorSPLbl.Size = new System.Drawing.Size(118, 25);
-            this.warriorSPLbl.TabIndex = 10;
-            this.warriorSPLbl.Text = "SP: (100/100)";
+            this.heroSPLbl1.AutoSize = true;
+            this.heroSPLbl1.Location = new System.Drawing.Point(131, 64);
+            this.heroSPLbl1.Name = "heroSPLbl1";
+            this.heroSPLbl1.Size = new System.Drawing.Size(118, 25);
+            this.heroSPLbl1.TabIndex = 10;
+            this.heroSPLbl1.Text = "SP: (100/100)";
             // 
-            // clericHPLbl
+            // heroHPLbl3
             // 
-            this.clericHPLbl.AutoSize = true;
-            this.clericHPLbl.Location = new System.Drawing.Point(134, 237);
-            this.clericHPLbl.Name = "clericHPLbl";
-            this.clericHPLbl.Size = new System.Drawing.Size(121, 25);
-            this.clericHPLbl.TabIndex = 9;
-            this.clericHPLbl.Text = "HP: (100/100)";
+            this.heroHPLbl3.AutoSize = true;
+            this.heroHPLbl3.Location = new System.Drawing.Point(134, 183);
+            this.heroHPLbl3.Name = "heroHPLbl3";
+            this.heroHPLbl3.Size = new System.Drawing.Size(121, 25);
+            this.heroHPLbl3.TabIndex = 9;
+            this.heroHPLbl3.Text = "HP: (100/100)";
             // 
-            // mageHPLbl
+            // heroHPLbl2
             // 
-            this.mageHPLbl.AutoSize = true;
-            this.mageHPLbl.Location = new System.Drawing.Point(134, 150);
-            this.mageHPLbl.Name = "mageHPLbl";
-            this.mageHPLbl.Size = new System.Drawing.Size(121, 25);
-            this.mageHPLbl.TabIndex = 8;
-            this.mageHPLbl.Text = "HP: (100/100)";
+            this.heroHPLbl2.AutoSize = true;
+            this.heroHPLbl2.Location = new System.Drawing.Point(131, 111);
+            this.heroHPLbl2.Name = "heroHPLbl2";
+            this.heroHPLbl2.Size = new System.Drawing.Size(121, 25);
+            this.heroHPLbl2.TabIndex = 8;
+            this.heroHPLbl2.Text = "HP: (100/100)";
             // 
-            // warriorHPLbl
+            // heroHPLbl1
             // 
-            this.warriorHPLbl.AutoSize = true;
-            this.warriorHPLbl.Location = new System.Drawing.Point(134, 66);
-            this.warriorHPLbl.Name = "warriorHPLbl";
-            this.warriorHPLbl.Size = new System.Drawing.Size(121, 25);
-            this.warriorHPLbl.TabIndex = 7;
-            this.warriorHPLbl.Text = "HP: (100/100)";
+            this.heroHPLbl1.AutoSize = true;
+            this.heroHPLbl1.Location = new System.Drawing.Point(131, 39);
+            this.heroHPLbl1.Name = "heroHPLbl1";
+            this.heroHPLbl1.Size = new System.Drawing.Size(121, 25);
+            this.heroHPLbl1.TabIndex = 7;
+            this.heroHPLbl1.Text = "HP: (100/100)";
             // 
             // menuStrip1
             // 
@@ -282,41 +282,41 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(206, 34);
             this.aboutToolStripMenuItem.Text = "About";
             // 
-            // playerPB1
+            // heroPB1
             // 
-            this.playerPB1.BackColor = System.Drawing.Color.Transparent;
-            this.playerPB1.Image = global::classWorkFinalProject.Properties.Resources.Fighter;
-            this.playerPB1.Location = new System.Drawing.Point(90, 78);
-            this.playerPB1.Name = "playerPB1";
-            this.playerPB1.Size = new System.Drawing.Size(173, 170);
-            this.playerPB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.playerPB1.TabIndex = 9;
-            this.playerPB1.TabStop = false;
-            this.playerPB1.Tag = "1";
+            this.heroPB1.BackColor = System.Drawing.Color.Transparent;
+            this.heroPB1.Image = global::classWorkFinalProject.Properties.Resources.Fighter;
+            this.heroPB1.Location = new System.Drawing.Point(90, 78);
+            this.heroPB1.Name = "heroPB1";
+            this.heroPB1.Size = new System.Drawing.Size(173, 170);
+            this.heroPB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.heroPB1.TabIndex = 9;
+            this.heroPB1.TabStop = false;
+            this.heroPB1.Tag = "1";
             // 
-            // playerPB2
+            // heroPB2
             // 
-            this.playerPB2.BackColor = System.Drawing.Color.Transparent;
-            this.playerPB2.Image = global::classWorkFinalProject.Properties.Resources.Mage;
-            this.playerPB2.Location = new System.Drawing.Point(317, 213);
-            this.playerPB2.Name = "playerPB2";
-            this.playerPB2.Size = new System.Drawing.Size(173, 170);
-            this.playerPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.playerPB2.TabIndex = 10;
-            this.playerPB2.TabStop = false;
-            this.playerPB2.Tag = "2";
+            this.heroPB2.BackColor = System.Drawing.Color.Transparent;
+            this.heroPB2.Image = global::classWorkFinalProject.Properties.Resources.Mage;
+            this.heroPB2.Location = new System.Drawing.Point(317, 213);
+            this.heroPB2.Name = "heroPB2";
+            this.heroPB2.Size = new System.Drawing.Size(173, 170);
+            this.heroPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.heroPB2.TabIndex = 10;
+            this.heroPB2.TabStop = false;
+            this.heroPB2.Tag = "2";
             // 
-            // playerPB3
+            // heroPB3
             // 
-            this.playerPB3.BackColor = System.Drawing.Color.Transparent;
-            this.playerPB3.Image = global::classWorkFinalProject.Properties.Resources.Cleric;
-            this.playerPB3.Location = new System.Drawing.Point(81, 381);
-            this.playerPB3.Name = "playerPB3";
-            this.playerPB3.Size = new System.Drawing.Size(173, 170);
-            this.playerPB3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.playerPB3.TabIndex = 11;
-            this.playerPB3.TabStop = false;
-            this.playerPB3.Tag = "3";
+            this.heroPB3.BackColor = System.Drawing.Color.Transparent;
+            this.heroPB3.Image = global::classWorkFinalProject.Properties.Resources.Cleric;
+            this.heroPB3.Location = new System.Drawing.Point(81, 381);
+            this.heroPB3.Name = "heroPB3";
+            this.heroPB3.Size = new System.Drawing.Size(173, 170);
+            this.heroPB3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.heroPB3.TabIndex = 11;
+            this.heroPB3.TabStop = false;
+            this.heroPB3.Tag = "3";
             // 
             // gameBackgroundPnl
             // 
@@ -325,9 +325,9 @@
             this.gameBackgroundPnl.Controls.Add(this.enemyPB3);
             this.gameBackgroundPnl.Controls.Add(this.enemyPB2);
             this.gameBackgroundPnl.Controls.Add(this.enemyPB1);
-            this.gameBackgroundPnl.Controls.Add(this.playerPB1);
-            this.gameBackgroundPnl.Controls.Add(this.playerPB3);
-            this.gameBackgroundPnl.Controls.Add(this.playerPB2);
+            this.gameBackgroundPnl.Controls.Add(this.heroPB1);
+            this.gameBackgroundPnl.Controls.Add(this.heroPB3);
+            this.gameBackgroundPnl.Controls.Add(this.heroPB2);
             this.gameBackgroundPnl.Location = new System.Drawing.Point(73, 48);
             this.gameBackgroundPnl.Name = "gameBackgroundPnl";
             this.gameBackgroundPnl.Size = new System.Drawing.Size(1498, 625);
@@ -375,7 +375,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1615, 998);
             this.Controls.Add(this.gameBackgroundPnl);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.statsGB);
             this.Controls.Add(this.actionsGB);
             this.Controls.Add(this.battleLogLabel);
             this.Controls.Add(this.battleLog);
@@ -384,13 +384,13 @@
             this.Name = "GameGUI";
             this.Text = "The RPG that shall bring balance to my grade, or destroy it";
             this.actionsGB.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.statsGB.ResumeLayout(false);
+            this.statsGB.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.playerPB1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.playerPB2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.playerPB3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heroPB1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heroPB2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heroPB3)).EndInit();
             this.gameBackgroundPnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.enemyPB3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyPB2)).EndInit();
@@ -407,16 +407,16 @@
         private Button specialBtn;
         private Button defendBtn;
         private Button attackBtn;
-        private Label WarriorLbl;
-        private Label MageLbl;
-        private Label ClericLbl;
-        private GroupBox groupBox1;
-        private Label clericSPLbl;
-        private Label mageSPLbl;
-        private Label warriorSPLbl;
-        private Label clericHPLbl;
-        private Label mageHPLbl;
-        private Label warriorHPLbl;
+        private Label heroNameLbl1;
+        private Label heroNameLbl2;
+        private Label heroNameLbl3;
+        private GroupBox statsGB;
+        private Label heroSPLbl3;
+        private Label heroSPLbl2;
+        private Label heroSPLbl1;
+        private Label heroHPLbl3;
+        private Label heroHPLbl2;
+        private Label heroHPLbl1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem highScoresToolStripMenuItem;
@@ -424,9 +424,9 @@
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem instructionsToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem;
-        private PictureBox playerPB1;
-        private PictureBox playerPB2;
-        private PictureBox playerPB3;
+        private PictureBox heroPB1;
+        private PictureBox heroPB2;
+        private PictureBox heroPB3;
         private Panel gameBackgroundPnl;
         private PictureBox enemyPB3;
         private PictureBox enemyPB2;
