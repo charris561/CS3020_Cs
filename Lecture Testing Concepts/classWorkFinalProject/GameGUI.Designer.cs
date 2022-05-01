@@ -285,7 +285,6 @@
             // heroPB1
             // 
             this.heroPB1.BackColor = System.Drawing.Color.Transparent;
-            this.heroPB1.Image = global::classWorkFinalProject.Properties.Resources.Fighter;
             this.heroPB1.Location = new System.Drawing.Point(90, 78);
             this.heroPB1.Name = "heroPB1";
             this.heroPB1.Size = new System.Drawing.Size(173, 170);
@@ -297,7 +296,6 @@
             // heroPB2
             // 
             this.heroPB2.BackColor = System.Drawing.Color.Transparent;
-            this.heroPB2.Image = global::classWorkFinalProject.Properties.Resources.Mage;
             this.heroPB2.Location = new System.Drawing.Point(317, 213);
             this.heroPB2.Name = "heroPB2";
             this.heroPB2.Size = new System.Drawing.Size(173, 170);
@@ -309,7 +307,6 @@
             // heroPB3
             // 
             this.heroPB3.BackColor = System.Drawing.Color.Transparent;
-            this.heroPB3.Image = global::classWorkFinalProject.Properties.Resources.Cleric;
             this.heroPB3.Location = new System.Drawing.Point(81, 381);
             this.heroPB3.Name = "heroPB3";
             this.heroPB3.Size = new System.Drawing.Size(173, 170);
@@ -336,7 +333,6 @@
             // enemyPB3
             // 
             this.enemyPB3.BackColor = System.Drawing.Color.Transparent;
-            this.enemyPB3.Image = global::classWorkFinalProject.Properties.Resources.Bandit;
             this.enemyPB3.Location = new System.Drawing.Point(1242, 381);
             this.enemyPB3.Name = "enemyPB3";
             this.enemyPB3.Size = new System.Drawing.Size(173, 170);
@@ -348,7 +344,6 @@
             // enemyPB2
             // 
             this.enemyPB2.BackColor = System.Drawing.Color.Transparent;
-            this.enemyPB2.Image = global::classWorkFinalProject.Properties.Resources.Bandit;
             this.enemyPB2.Location = new System.Drawing.Point(1001, 213);
             this.enemyPB2.Name = "enemyPB2";
             this.enemyPB2.Size = new System.Drawing.Size(173, 170);
@@ -360,7 +355,6 @@
             // enemyPB1
             // 
             this.enemyPB1.BackColor = System.Drawing.Color.Transparent;
-            this.enemyPB1.Image = global::classWorkFinalProject.Properties.Resources.Bandit;
             this.enemyPB1.Location = new System.Drawing.Point(1242, 78);
             this.enemyPB1.Name = "enemyPB1";
             this.enemyPB1.Size = new System.Drawing.Size(173, 170);
