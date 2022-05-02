@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj": {}
+    "C:\\Dev\\Repositories\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj": {
+    "C:\\Dev\\Repositories\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj",
+        "projectUniqueName": "C:\\Dev\\Repositories\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj",
         "projectName": "MineSweeper!",
-        "projectPath": "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj",
+        "projectPath": "C:\\Dev\\Repositories\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\MineSweeper!.csproj",
         "packagesPath": "C:\\Users\\Harri\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\obj\\",
+        "outputPath": "C:\\Dev\\Repositories\\CS3020_Cs\\Lecture Testing Concepts\\MineSweeper!\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
