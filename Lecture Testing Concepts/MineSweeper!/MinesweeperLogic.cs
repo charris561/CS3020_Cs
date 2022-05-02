@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MineSweeper_
 {
-    internal class MinesweeperLogic
+    public class MinesweeperLogic
     {
+
+        
+
     }
 }

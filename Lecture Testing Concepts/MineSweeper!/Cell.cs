@@ -12,8 +12,11 @@ namespace MineSweeper_
 {
     public partial class Cell : UserControl
     {
+        Random rand = new Random();
         Button cellButton = new Button();
+        char cellcontent = ' ';
         int sizeOfCell = 32;
+        
         public Cell()
         {
             InitializeComponent();
