@@ -32,6 +32,7 @@ namespace classWorkFinalProject
             AssembleHeroes();
             GenerateEncounter();
             SetTurnOrder();
+            Update();
         }
 
         #region methods
@@ -102,6 +103,12 @@ namespace classWorkFinalProject
         protected virtual void OnEnemiesUpdate(object? sender, EnemiesUpdateEventArgs e)
         {
             EnemiesUpdate?.Invoke(sender, e);
+        }
+
+        //Other
+        private void Update()
+        {
+            UpdateEventArgs e = new UpdateEventArgs(turnOrder[currentTurn], currentTurn); 
         }
 
         #endregion

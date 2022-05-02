@@ -42,8 +42,14 @@ namespace classWorkFinalProject
         }
 
         //create update handler here
+        public void UpdateEventHandler(object? sender, EnemiesUpdateEventArgs e)
+        {
+            //this is where the gui will be updated
+            
+        }
 
-        #region Events that will likely need to move
+        #region events that need to be moved
+
         //player controls
         private void OnAttackBtn_Click(object sender, EventArgs e)
         {

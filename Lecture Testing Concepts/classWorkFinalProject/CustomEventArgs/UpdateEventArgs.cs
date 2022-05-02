@@ -24,5 +24,6 @@ namespace classWorkFinalProject
         public string? UpdateMessage { get => updateMessage; set => updateMessage = value; }
         public int CurrentTurn { get => currentTurn; set => currentTurn = value; }
         public Entity Entity { get => entity; set => entity = value; }
+
     }
 }
