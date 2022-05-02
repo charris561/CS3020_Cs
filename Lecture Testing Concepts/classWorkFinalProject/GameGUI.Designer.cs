@@ -72,21 +72,22 @@
             // 
             // battleLog
             // 
-            this.battleLog.Enabled = false;
-            this.battleLog.Location = new System.Drawing.Point(949, 718);
+            this.battleLog.Location = new System.Drawing.Point(664, 431);
+            this.battleLog.Margin = new System.Windows.Forms.Padding(2);
             this.battleLog.Multiline = true;
             this.battleLog.Name = "battleLog";
             this.battleLog.ReadOnly = true;
             this.battleLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.battleLog.Size = new System.Drawing.Size(622, 256);
+            this.battleLog.Size = new System.Drawing.Size(437, 155);
             this.battleLog.TabIndex = 1;
             // 
             // battleLogLabel
             // 
             this.battleLogLabel.AutoSize = true;
-            this.battleLogLabel.Location = new System.Drawing.Point(949, 679);
+            this.battleLogLabel.Location = new System.Drawing.Point(664, 407);
+            this.battleLogLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.battleLogLabel.Name = "battleLogLabel";
-            this.battleLogLabel.Size = new System.Drawing.Size(100, 25);
+            this.battleLogLabel.Size = new System.Drawing.Size(66, 15);
             this.battleLogLabel.TabIndex = 2;
             this.battleLogLabel.Text = "Battle Log: ";
             // 
@@ -95,64 +96,75 @@
             this.actionsGB.Controls.Add(this.specialBtn);
             this.actionsGB.Controls.Add(this.defendBtn);
             this.actionsGB.Controls.Add(this.attackBtn);
-            this.actionsGB.Location = new System.Drawing.Point(73, 679);
+            this.actionsGB.Location = new System.Drawing.Point(51, 407);
+            this.actionsGB.Margin = new System.Windows.Forms.Padding(2);
             this.actionsGB.Name = "actionsGB";
-            this.actionsGB.Size = new System.Drawing.Size(370, 295);
+            this.actionsGB.Padding = new System.Windows.Forms.Padding(2);
+            this.actionsGB.Size = new System.Drawing.Size(259, 177);
             this.actionsGB.TabIndex = 3;
             this.actionsGB.TabStop = false;
             this.actionsGB.Text = "Actions: ";
             // 
             // specialBtn
             // 
-            this.specialBtn.Location = new System.Drawing.Point(30, 223);
+            this.specialBtn.Location = new System.Drawing.Point(21, 134);
+            this.specialBtn.Margin = new System.Windows.Forms.Padding(2);
             this.specialBtn.Name = "specialBtn";
-            this.specialBtn.Size = new System.Drawing.Size(312, 52);
+            this.specialBtn.Size = new System.Drawing.Size(218, 31);
             this.specialBtn.TabIndex = 2;
             this.specialBtn.Text = "Special";
             this.specialBtn.UseVisualStyleBackColor = true;
+            this.specialBtn.Click += new System.EventHandler(this.OnSpecialBtn_Click);
             // 
             // defendBtn
             // 
-            this.defendBtn.Location = new System.Drawing.Point(30, 136);
+            this.defendBtn.Location = new System.Drawing.Point(21, 82);
+            this.defendBtn.Margin = new System.Windows.Forms.Padding(2);
             this.defendBtn.Name = "defendBtn";
-            this.defendBtn.Size = new System.Drawing.Size(312, 52);
+            this.defendBtn.Size = new System.Drawing.Size(218, 31);
             this.defendBtn.TabIndex = 1;
             this.defendBtn.Text = "Defend";
             this.defendBtn.UseVisualStyleBackColor = true;
+            this.defendBtn.Click += new System.EventHandler(this.OnDefendBtn_Click);
             // 
             // attackBtn
             // 
-            this.attackBtn.Location = new System.Drawing.Point(30, 52);
+            this.attackBtn.Location = new System.Drawing.Point(21, 31);
+            this.attackBtn.Margin = new System.Windows.Forms.Padding(2);
             this.attackBtn.Name = "attackBtn";
-            this.attackBtn.Size = new System.Drawing.Size(312, 52);
+            this.attackBtn.Size = new System.Drawing.Size(218, 31);
             this.attackBtn.TabIndex = 0;
             this.attackBtn.Text = "Attack";
             this.attackBtn.UseVisualStyleBackColor = true;
+            this.attackBtn.Click += new System.EventHandler(this.OnAttackBtn_Click);
             // 
             // heroNameLbl1
             // 
             this.heroNameLbl1.AutoSize = true;
-            this.heroNameLbl1.Location = new System.Drawing.Point(22, 39);
+            this.heroNameLbl1.Location = new System.Drawing.Point(15, 23);
+            this.heroNameLbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroNameLbl1.Name = "heroNameLbl1";
-            this.heroNameLbl1.Size = new System.Drawing.Size(70, 25);
+            this.heroNameLbl1.Size = new System.Drawing.Size(46, 15);
             this.heroNameLbl1.TabIndex = 4;
             this.heroNameLbl1.Text = "Warrior";
             // 
             // heroNameLbl2
             // 
             this.heroNameLbl2.AutoSize = true;
-            this.heroNameLbl2.Location = new System.Drawing.Point(22, 111);
+            this.heroNameLbl2.Location = new System.Drawing.Point(15, 67);
+            this.heroNameLbl2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroNameLbl2.Name = "heroNameLbl2";
-            this.heroNameLbl2.Size = new System.Drawing.Size(57, 25);
+            this.heroNameLbl2.Size = new System.Drawing.Size(37, 15);
             this.heroNameLbl2.TabIndex = 5;
             this.heroNameLbl2.Text = "Mage";
             // 
             // heroNameLbl3
             // 
             this.heroNameLbl3.AutoSize = true;
-            this.heroNameLbl3.Location = new System.Drawing.Point(25, 183);
+            this.heroNameLbl3.Location = new System.Drawing.Point(18, 110);
+            this.heroNameLbl3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroNameLbl3.Name = "heroNameLbl3";
-            this.heroNameLbl3.Size = new System.Drawing.Size(54, 25);
+            this.heroNameLbl3.Size = new System.Drawing.Size(37, 15);
             this.heroNameLbl3.TabIndex = 6;
             this.heroNameLbl3.Text = "Cleric";
             // 
@@ -167,9 +179,11 @@
             this.statsGB.Controls.Add(this.heroNameLbl1);
             this.statsGB.Controls.Add(this.heroNameLbl3);
             this.statsGB.Controls.Add(this.heroNameLbl2);
-            this.statsGB.Location = new System.Drawing.Point(449, 679);
+            this.statsGB.Location = new System.Drawing.Point(314, 407);
+            this.statsGB.Margin = new System.Windows.Forms.Padding(2);
             this.statsGB.Name = "statsGB";
-            this.statsGB.Size = new System.Drawing.Size(482, 295);
+            this.statsGB.Padding = new System.Windows.Forms.Padding(2);
+            this.statsGB.Size = new System.Drawing.Size(337, 177);
             this.statsGB.TabIndex = 7;
             this.statsGB.TabStop = false;
             this.statsGB.Text = "Stats:";
@@ -177,54 +191,60 @@
             // heroSPLbl3
             // 
             this.heroSPLbl3.AutoSize = true;
-            this.heroSPLbl3.Location = new System.Drawing.Point(134, 208);
+            this.heroSPLbl3.Location = new System.Drawing.Point(94, 125);
+            this.heroSPLbl3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroSPLbl3.Name = "heroSPLbl3";
-            this.heroSPLbl3.Size = new System.Drawing.Size(118, 25);
+            this.heroSPLbl3.Size = new System.Drawing.Size(75, 15);
             this.heroSPLbl3.TabIndex = 12;
             this.heroSPLbl3.Text = "SP: (100/100)";
             // 
             // heroSPLbl2
             // 
             this.heroSPLbl2.AutoSize = true;
-            this.heroSPLbl2.Location = new System.Drawing.Point(131, 136);
+            this.heroSPLbl2.Location = new System.Drawing.Point(92, 82);
+            this.heroSPLbl2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroSPLbl2.Name = "heroSPLbl2";
-            this.heroSPLbl2.Size = new System.Drawing.Size(118, 25);
+            this.heroSPLbl2.Size = new System.Drawing.Size(75, 15);
             this.heroSPLbl2.TabIndex = 11;
             this.heroSPLbl2.Text = "SP: (100/100)";
             // 
             // heroSPLbl1
             // 
             this.heroSPLbl1.AutoSize = true;
-            this.heroSPLbl1.Location = new System.Drawing.Point(131, 64);
+            this.heroSPLbl1.Location = new System.Drawing.Point(92, 38);
+            this.heroSPLbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroSPLbl1.Name = "heroSPLbl1";
-            this.heroSPLbl1.Size = new System.Drawing.Size(118, 25);
+            this.heroSPLbl1.Size = new System.Drawing.Size(75, 15);
             this.heroSPLbl1.TabIndex = 10;
             this.heroSPLbl1.Text = "SP: (100/100)";
             // 
             // heroHPLbl3
             // 
             this.heroHPLbl3.AutoSize = true;
-            this.heroHPLbl3.Location = new System.Drawing.Point(134, 183);
+            this.heroHPLbl3.Location = new System.Drawing.Point(94, 110);
+            this.heroHPLbl3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroHPLbl3.Name = "heroHPLbl3";
-            this.heroHPLbl3.Size = new System.Drawing.Size(121, 25);
+            this.heroHPLbl3.Size = new System.Drawing.Size(78, 15);
             this.heroHPLbl3.TabIndex = 9;
             this.heroHPLbl3.Text = "HP: (100/100)";
             // 
             // heroHPLbl2
             // 
             this.heroHPLbl2.AutoSize = true;
-            this.heroHPLbl2.Location = new System.Drawing.Point(131, 111);
+            this.heroHPLbl2.Location = new System.Drawing.Point(92, 67);
+            this.heroHPLbl2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroHPLbl2.Name = "heroHPLbl2";
-            this.heroHPLbl2.Size = new System.Drawing.Size(121, 25);
+            this.heroHPLbl2.Size = new System.Drawing.Size(78, 15);
             this.heroHPLbl2.TabIndex = 8;
             this.heroHPLbl2.Text = "HP: (100/100)";
             // 
             // heroHPLbl1
             // 
             this.heroHPLbl1.AutoSize = true;
-            this.heroHPLbl1.Location = new System.Drawing.Point(131, 39);
+            this.heroHPLbl1.Location = new System.Drawing.Point(92, 23);
+            this.heroHPLbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heroHPLbl1.Name = "heroHPLbl1";
-            this.heroHPLbl1.Size = new System.Drawing.Size(121, 25);
+            this.heroHPLbl1.Size = new System.Drawing.Size(78, 15);
             this.heroHPLbl1.TabIndex = 7;
             this.heroHPLbl1.Text = "HP: (100/100)";
             // 
@@ -236,7 +256,8 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1615, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1130, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -246,19 +267,19 @@
             this.highScoresToolStripMenuItem,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // highScoresToolStripMenuItem
             // 
             this.highScoresToolStripMenuItem.Name = "highScoresToolStripMenuItem";
-            this.highScoresToolStripMenuItem.Size = new System.Drawing.Size(209, 34);
+            this.highScoresToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.highScoresToolStripMenuItem.Text = "High Scores";
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(209, 34);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             // 
             // helpToolStripMenuItem
@@ -267,27 +288,28 @@
             this.instructionsToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // instructionsToolStripMenuItem
             // 
             this.instructionsToolStripMenuItem.Name = "instructionsToolStripMenuItem";
-            this.instructionsToolStripMenuItem.Size = new System.Drawing.Size(206, 34);
+            this.instructionsToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.instructionsToolStripMenuItem.Text = "Instructions";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(206, 34);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // heroPB1
             // 
             this.heroPB1.BackColor = System.Drawing.Color.Transparent;
-            this.heroPB1.Location = new System.Drawing.Point(90, 78);
+            this.heroPB1.Location = new System.Drawing.Point(63, 47);
+            this.heroPB1.Margin = new System.Windows.Forms.Padding(2);
             this.heroPB1.Name = "heroPB1";
-            this.heroPB1.Size = new System.Drawing.Size(173, 170);
+            this.heroPB1.Size = new System.Drawing.Size(121, 102);
             this.heroPB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.heroPB1.TabIndex = 9;
             this.heroPB1.TabStop = false;
@@ -296,9 +318,10 @@
             // heroPB2
             // 
             this.heroPB2.BackColor = System.Drawing.Color.Transparent;
-            this.heroPB2.Location = new System.Drawing.Point(317, 213);
+            this.heroPB2.Location = new System.Drawing.Point(222, 128);
+            this.heroPB2.Margin = new System.Windows.Forms.Padding(2);
             this.heroPB2.Name = "heroPB2";
-            this.heroPB2.Size = new System.Drawing.Size(173, 170);
+            this.heroPB2.Size = new System.Drawing.Size(121, 102);
             this.heroPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.heroPB2.TabIndex = 10;
             this.heroPB2.TabStop = false;
@@ -307,9 +330,10 @@
             // heroPB3
             // 
             this.heroPB3.BackColor = System.Drawing.Color.Transparent;
-            this.heroPB3.Location = new System.Drawing.Point(81, 381);
+            this.heroPB3.Location = new System.Drawing.Point(57, 229);
+            this.heroPB3.Margin = new System.Windows.Forms.Padding(2);
             this.heroPB3.Name = "heroPB3";
-            this.heroPB3.Size = new System.Drawing.Size(173, 170);
+            this.heroPB3.Size = new System.Drawing.Size(121, 102);
             this.heroPB3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.heroPB3.TabIndex = 11;
             this.heroPB3.TabStop = false;
@@ -325,17 +349,19 @@
             this.gameBackgroundPnl.Controls.Add(this.heroPB1);
             this.gameBackgroundPnl.Controls.Add(this.heroPB3);
             this.gameBackgroundPnl.Controls.Add(this.heroPB2);
-            this.gameBackgroundPnl.Location = new System.Drawing.Point(73, 48);
+            this.gameBackgroundPnl.Location = new System.Drawing.Point(51, 29);
+            this.gameBackgroundPnl.Margin = new System.Windows.Forms.Padding(2);
             this.gameBackgroundPnl.Name = "gameBackgroundPnl";
-            this.gameBackgroundPnl.Size = new System.Drawing.Size(1498, 625);
+            this.gameBackgroundPnl.Size = new System.Drawing.Size(1049, 375);
             this.gameBackgroundPnl.TabIndex = 12;
             // 
             // enemyPB3
             // 
             this.enemyPB3.BackColor = System.Drawing.Color.Transparent;
-            this.enemyPB3.Location = new System.Drawing.Point(1242, 381);
+            this.enemyPB3.Location = new System.Drawing.Point(869, 229);
+            this.enemyPB3.Margin = new System.Windows.Forms.Padding(2);
             this.enemyPB3.Name = "enemyPB3";
-            this.enemyPB3.Size = new System.Drawing.Size(173, 170);
+            this.enemyPB3.Size = new System.Drawing.Size(121, 102);
             this.enemyPB3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.enemyPB3.TabIndex = 14;
             this.enemyPB3.TabStop = false;
@@ -344,9 +370,10 @@
             // enemyPB2
             // 
             this.enemyPB2.BackColor = System.Drawing.Color.Transparent;
-            this.enemyPB2.Location = new System.Drawing.Point(1001, 213);
+            this.enemyPB2.Location = new System.Drawing.Point(701, 128);
+            this.enemyPB2.Margin = new System.Windows.Forms.Padding(2);
             this.enemyPB2.Name = "enemyPB2";
-            this.enemyPB2.Size = new System.Drawing.Size(173, 170);
+            this.enemyPB2.Size = new System.Drawing.Size(121, 102);
             this.enemyPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.enemyPB2.TabIndex = 13;
             this.enemyPB2.TabStop = false;
@@ -355,19 +382,21 @@
             // enemyPB1
             // 
             this.enemyPB1.BackColor = System.Drawing.Color.Transparent;
-            this.enemyPB1.Location = new System.Drawing.Point(1242, 78);
+            this.enemyPB1.Location = new System.Drawing.Point(869, 47);
+            this.enemyPB1.Margin = new System.Windows.Forms.Padding(2);
             this.enemyPB1.Name = "enemyPB1";
-            this.enemyPB1.Size = new System.Drawing.Size(173, 170);
+            this.enemyPB1.Size = new System.Drawing.Size(121, 102);
             this.enemyPB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.enemyPB1.TabIndex = 12;
             this.enemyPB1.TabStop = false;
             this.enemyPB1.Tag = "1";
+            this.enemyPB1.Click += new System.EventHandler(this.OnEnemyPB1_Click);
             // 
             // GameGUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1615, 998);
+            this.ClientSize = new System.Drawing.Size(1130, 599);
             this.Controls.Add(this.gameBackgroundPnl);
             this.Controls.Add(this.statsGB);
             this.Controls.Add(this.actionsGB);
@@ -375,6 +404,7 @@
             this.Controls.Add(this.battleLog);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GameGUI";
             this.Text = "The RPG that shall bring balance to my grade, or destroy it";
             this.actionsGB.ResumeLayout(false);
