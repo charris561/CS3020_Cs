@@ -72,6 +72,7 @@
             // 
             // battleLog
             // 
+            this.battleLog.BackColor = System.Drawing.SystemColors.Control;
             this.battleLog.Location = new System.Drawing.Point(664, 431);
             this.battleLog.Margin = new System.Windows.Forms.Padding(2);
             this.battleLog.Multiline = true;

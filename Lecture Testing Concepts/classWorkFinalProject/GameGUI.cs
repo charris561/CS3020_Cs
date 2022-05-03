@@ -2,8 +2,13 @@ namespace classWorkFinalProject
 {
     public partial class GameGUI : Form
     {
+        //picture boxes
         PictureBox[] heroPBs = new PictureBox[3];
         PictureBox[] enemyPBs = new PictureBox[3];
+
+        //events
+        public event EventHandler AttackButtonClicked;
+
         public GameGUI()
         {
             InitializeComponent();
@@ -42,10 +47,9 @@ namespace classWorkFinalProject
         }
 
         //create update handler here
-        public void UpdateEventHandler(object? sender, EnemiesUpdateEventArgs e)
+        public void UpdateEventHandler(object? sender, UpdateEventArgs e)
         {
-            //this is where the gui will be updated
-            
+            //this is where the battleLog will be appended with actions
         }
 
         #region events that need to be moved
@@ -53,23 +57,23 @@ namespace classWorkFinalProject
         //player controls
         private void OnAttackBtn_Click(object sender, EventArgs e)
         {
-            battleLog.Text += "You attacked!" + "\r\n";
+            battleLog.AppendText("You attacked!" + "\r\n");
         }
 
         private void OnDefendBtn_Click(object sender, EventArgs e)
         {
-            battleLog.Text += "You're defending!" + "\r\n";
+            battleLog.AppendText("You're defending!" + "\r\n");
         }
 
         private void OnSpecialBtn_Click(object sender, EventArgs e)
         {
-            battleLog.Text += "You used your special move!" + "\r\n";
+            battleLog.AppendText("You used your special move!" + "\r\n");
         }
 
         //target selection
         private void OnEnemyPB1_Click(object sender, EventArgs e)
         {
-            battleLog.Text += "You selected enemy one!" + "\r\n";
+            battleLog.AppendText("You selected enemy one!" + "\r\n");
         }
 
         #endregion

@@ -11,6 +11,7 @@ namespace classWorkFinalProject
         //events
         public event EventHandler<HeroesUpdateEventArgs>? HeroesUpdate;
         public event EventHandler<EnemiesUpdateEventArgs>? EnemiesUpdate;
+        public event EventHandler<UpdateEventArgs>? UpdateEvent;
         
         //lists
         List<Hero> heroList = new List<Hero>();
@@ -32,7 +33,6 @@ namespace classWorkFinalProject
             AssembleHeroes();
             GenerateEncounter();
             SetTurnOrder();
-            Update();
         }
 
         #region methods
@@ -48,10 +48,10 @@ namespace classWorkFinalProject
         private void GenerateEncounter()
         { 
             enemyEncounter.Clear();
-            int encounterSize = random.Next(1); //sets the number of encounters possible
+            int encounterSize = random.Next(3); //sets the number of encounters possible
             for (int i = 0; i <= encounterSize; i++)
             {
-                int randomEnemy = random.Next(1); //set which encounters are possible
+                int randomEnemy = random.Next(3); //set which encounters are possible
                 switch (randomEnemy)
                 {
                     case 0: 
@@ -82,16 +82,20 @@ namespace classWorkFinalProject
         #region Events Related
 
         //Heroes Related
+        //event
         private void HeroesUpdated()
         { 
             HeroesUpdateEventArgs e = new HeroesUpdateEventArgs(heroList);
             OnHeroesUpdate(this, e);
         }
 
+        //handler
         protected virtual void OnHeroesUpdate(object? sender, HeroesUpdateEventArgs e)
         { 
             HeroesUpdate?.Invoke(sender, e);
         }
+
+        
 
         //Enemies Related
         private void EnemiesUpdated()
@@ -108,7 +112,14 @@ namespace classWorkFinalProject
         //Other
         private void Update()
         {
-            UpdateEventArgs e = new UpdateEventArgs(turnOrder[currentTurn], currentTurn); 
+            Entity currentEntity = turnOrder[currentTurn];
+            UpdateEventArgs e = new UpdateEventArgs(currentEntity, currentTurn); 
+            OnUpdate(this, e);
+        }
+
+        protected virtual void OnUpdate(object? sender, UpdateEventArgs e)
+        {
+            UpdateEvent?.Invoke(sender, e);
         }
 
         #endregion

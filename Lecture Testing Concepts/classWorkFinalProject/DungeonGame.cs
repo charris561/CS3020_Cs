@@ -15,6 +15,7 @@ namespace classWorkFinalProject
         {
             gameLogic.HeroesUpdate += gameGUI.HeroesUpdateHandler;
             gameLogic.EnemiesUpdate += gameGUI.EnemiesUpdateHandler;
+
             gameLogic.InitializeGame();
             Application.Run(gameGUI);
         }

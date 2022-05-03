@@ -8,7 +8,7 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Harri\\.nuget\\packages\\": {},
+    "C:\\Users\\charris4\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,14 +17,14 @@
       "projectUniqueName": "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\classWorkFinalProject\\classWorkFinalProject.csproj",
       "projectName": "classWorkFinalProject",
       "projectPath": "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\classWorkFinalProject\\classWorkFinalProject.csproj",
-      "packagesPath": "C:\\Users\\Harri\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\charris4\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\CS3020_Cs\\Lecture Testing Concepts\\classWorkFinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Harri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\charris4\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

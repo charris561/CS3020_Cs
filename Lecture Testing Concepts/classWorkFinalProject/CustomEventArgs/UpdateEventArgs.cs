@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace classWorkFinalProject
 {
     /// <summary>
-    /// This event data will contain data for updating aspects of the game.
+    /// This event data will contain data for updating the battlelog in the game
     /// </summary>
-    internal class UpdateEventArgs : EventArgs
+    public class UpdateEventArgs : EventArgs
     {
         string? updateMessage;
         int currentTurn;
-        Entity entity;
+        Entity? entity;
 
         public UpdateEventArgs(Entity entity, int turn)
         { 
